@@ -28,8 +28,8 @@ html{
 }
 
 #detail {
-    margin: 10px;
-    width: 75vw;
+    margin: 15px;
+    width: 70vw;
 }
 
 #title{
@@ -60,4 +60,24 @@ html{
     height: 50px;
     border-radius: 50%;
     margin-top: 30px;
+    cursor: pointer;
+}
+
+@media (min-width:750px){
+    #container{
+        width:30%;
+    }
+
+    #title{
+        margin-bottom: 10px;
+    }
+
+    #content{
+        width: 90%;
+    }
+
+    #detail{
+        width: 80%;
+        margin-bottom: 15px;
+    }
 }
